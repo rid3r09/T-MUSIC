@@ -17,8 +17,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~filters.edited & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/df8b5184f4aec6bf7aac5.jpg
-        ",
+        photo=f"https://graph.org/file/df8b5184f4aec6bf7aac5.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐏𝐀𝐏𝐀🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -36,8 +35,7 @@ async def help(client: Client, message: Message):
     & ~filters.edited & filters.private & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/df8b5184f4aec6bf7aac5.jpg
-        ",
+        photo=f"https://graph.org/file/df8b5184f4aec6bf7aac5.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐃𝐌❤️𝐏𝐀𝐏𝐀🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
